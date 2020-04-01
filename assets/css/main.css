@@ -1972,7 +1972,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: rgba(255, 255, 255, 0.55) !important;
+			border-color: rgba(255, 255, 255, 1) !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -2739,7 +2739,7 @@ input, select, textarea {
 				}
 
 		ul.actions.fit {
-			width: calc(100% + 1em);
+			width: calc(100% + 1.75em);
 		}
 
 			ul.actions.fit li {
