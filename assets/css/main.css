@@ -6,6 +6,147 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.branchButtons{
+  z-index: 1;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .15; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .15; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .15; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .15; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: .15; }
+}
+
+#pc:hover:before{
+        background: url(../../images/pc-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: easein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+#bk:hover:before{
+        background: url(../../images/bk-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+}
+#sut:hover:before{
+        background: url(../../images/sut-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+}
+#jh:hover:before{
+        background: url(../../images/jh-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+}
+#ch:hover:before{
+        background: url(../../images/ch-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+}
+#rh:hover:before{
+        background: url(../../images/rh-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+}
+#fp:hover:before{
+        background: url(../../images/fp-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+}
+#ast:hover:before{
+        background: url(../../images/ast-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+}
+#op:hover:before{
+        background: url(../../images/op-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+}
+#ja:hover:before{
+        background: url(../../images/ja-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+}
+#dream:hover:before{
+        background: url(../../images/dream-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+}
+
+
+
 @font-face {
   font-family: d-din;
   src: url(../webfonts/D-DINCondensed-Bold.woff);
@@ -2446,7 +2587,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: d-din;
+				font-family: "Font Awesome 5 Free";
 				font-weight: 900;
 			}
 
@@ -2526,7 +2667,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: "Font Awesome 5 Brands" !important;
+			font-family: "Font Awesome 5 Free" !important;
 			font-weight: 400;
 		}
 
@@ -3048,7 +3189,7 @@ input, select, textarea {
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 25em;
+			width: 45em;
 		}
 
 			.spotlights > section > .image img {
@@ -3772,17 +3913,17 @@ input, select, textarea {
 				}
 
 		#sidebar nav a {
-			-moz-transition: color 0.2s ease;
-			-webkit-transition: color 0.2s ease;
-			-ms-transition: color 0.2s ease;
-			transition: color 0.2s ease;
+			-moz-transition: color 0.4s ease;
+			-webkit-transition: color 0.4s ease;
+			-ms-transition: color 0.4s ease;
+			transition: color 0.4s ease;
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
 			font-size: 1em;
 			font-weight: bold;
 			letter-spacing: 0.25em;
-			line-height: 1.75;
+			line-height: 1.5;
 			outline: 0;
 			padding: 1.35em 0;
 			position: relative;
@@ -3809,10 +3950,10 @@ input, select, textarea {
 				background-image: -webkit-linear-gradient(to right, #89acd6, #424c99);
 				background-image: -ms-linear-gradient(to right, #89acd6, #424c99);
 				background-image: linear-gradient(to right, #89acd6, #424c99);
-				-moz-transition: max-width 0.2s ease;
-				-webkit-transition: max-width 0.2s ease;
-				-ms-transition: max-width 0.2s ease;
-				transition: max-width 0.2s ease;
+				-moz-transition: max-width 0.4s ease;
+				-webkit-transition: max-width 0.4s ease;
+				-ms-transition: max-width 0.4s ease;
+				transition: max-width 0.4s ease;
 				max-width: 0;
 			}
 
