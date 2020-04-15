@@ -39,6 +39,212 @@
     to   { opacity: .15; }
 }
 
+@keyframes fadeout {
+    from { opacity: .15; }
+    to   { opacity: 0; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeout {
+  from { opacity: .15; }
+  to   { opacity: 0; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeout {
+  from { opacity: .15; }
+  to   { opacity: 0; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeout {
+  from { opacity: .15; }
+  to   { opacity: 0; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeout {
+  from { opacity: .15; }
+  to   { opacity: 0; }
+}
+
+#pc:before{
+        background: url(../../images/pc-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 2s; /* Firefox < 16 */
+        -ms-animation: fadeout 2s; /* Internet Explorer */
+         -o-animation: fadeout 2s; /* Opera < 12.1 */
+            animation: fadeout 2s;
+            animation-fill-mode: forwards;
+}
+#bk:before{
+        background: url(../../images/bk-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 2s; /* Firefox < 16 */
+        -ms-animation: fadeout 2s; /* Internet Explorer */
+         -o-animation: fadeout 2s; /* Opera < 12.1 */
+            animation: fadeout 2s;
+            animation-fill-mode: forwards;
+}
+#sut:before{
+        background: url(../../images/sut-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 2s; /* Firefox < 16 */
+        -ms-animation: fadeout 2s; /* Internet Explorer */
+         -o-animation: fadeout 2s; /* Opera < 12.1 */
+            animation: fadeout 2s;
+            animation-fill-mode: forwards;
+}
+#jh:before{
+        background: url(../../images/jh-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 2s; /* Firefox < 16 */
+        -ms-animation: fadeout 2s; /* Internet Explorer */
+         -o-animation: fadeout 2s; /* Opera < 12.1 */
+            animation: fadeout 2s;
+            animation-fill-mode: forwards;
+}
+#ch:before{
+        background: url(../../images/ch-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 2s; /* Firefox < 16 */
+        -ms-animation: fadeout 2s; /* Internet Explorer */
+         -o-animation: fadeout 2s; /* Opera < 12.1 */
+            animation: fadeout 2s;
+            animation-fill-mode: forwards;
+}
+#rh:before{
+        background: url(../../images/rh-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 2s; /* Firefox < 16 */
+        -ms-animation: fadeout 2s; /* Internet Explorer */
+         -o-animation: fadeout 2s; /* Opera < 12.1 */
+            animation: fadeout 2s;
+            animation-fill-mode: forwards;
+}
+#fp:before{
+        background: url(../../images/fp-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 2s; /* Firefox < 16 */
+        -ms-animation: fadeout 2s; /* Internet Explorer */
+         -o-animation: fadeout 2s; /* Opera < 12.1 */
+            animation: fadeout 2s;
+            animation-fill-mode: forwards;
+}
+#ast:before{
+        background: url(../../images/ast-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 2s; /* Firefox < 16 */
+        -ms-animation: fadeout 2s; /* Internet Explorer */
+         -o-animation: fadeout 2s; /* Opera < 12.1 */
+            animation: fadeout 2s;
+            animation-fill-mode: forwards;
+}
+#op:before{
+        background: url(../../images/op-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 2s; /* Firefox < 16 */
+        -ms-animation: fadeout 2s; /* Internet Explorer */
+         -o-animation: fadeout 2s; /* Opera < 12.1 */
+            animation: fadeout 2s;
+            animation-fill-mode: forwards;
+}
+#ja:before{
+        background: url(../../images/ja-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 2s; /* Firefox < 16 */
+        -ms-animation: fadeout 2s; /* Internet Explorer */
+         -o-animation: fadeout 2s; /* Opera < 12.1 */
+            animation: fadeout 2s;
+            animation-fill-mode: forwards;
+}
+#dream:before{
+        background: url(../../images/dream-min.jpg);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        opacity: 0.15;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 2s; /* Firefox < 16 */
+        -ms-animation: fadeout 2s; /* Internet Explorer */
+         -o-animation: fadeout 2s; /* Opera < 12.1 */
+            animation: fadeout 2s;
+            animation-fill-mode: forwards;
+}
+
 #pc:hover:before{
         background: url(../../images/pc-min.jpg);
         content: "";
@@ -48,7 +254,7 @@
         top: 0; bottom: 0; left: 0; right: 0;
         background-size: cover;
         background-repeat: no-repeat;
-    -webkit-animation: easein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
@@ -62,6 +268,12 @@
         opacity: 0.15;
         top: 0; bottom: 0; left: 0; right: 0;
         background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 #sut:hover:before{
         background: url(../../images/sut-min.jpg);
@@ -71,6 +283,12 @@
         opacity: 0.15;
         top: 0; bottom: 0; left: 0; right: 0;
         background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 #jh:hover:before{
         background: url(../../images/jh-min.jpg);
@@ -80,6 +298,12 @@
         opacity: 0.15;
         top: 0; bottom: 0; left: 0; right: 0;
         background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 #ch:hover:before{
         background: url(../../images/ch-min.jpg);
@@ -89,6 +313,12 @@
         opacity: 0.15;
         top: 0; bottom: 0; left: 0; right: 0;
         background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 #rh:hover:before{
         background: url(../../images/rh-min.jpg);
@@ -98,6 +328,12 @@
         opacity: 0.15;
         top: 0; bottom: 0; left: 0; right: 0;
         background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 #fp:hover:before{
         background: url(../../images/fp-min.jpg);
@@ -107,6 +343,12 @@
         opacity: 0.15;
         top: 0; bottom: 0; left: 0; right: 0;
         background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 #ast:hover:before{
         background: url(../../images/ast-min.jpg);
@@ -116,6 +358,12 @@
         opacity: 0.15;
         top: 0; bottom: 0; left: 0; right: 0;
         background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 #op:hover:before{
         background: url(../../images/op-min.jpg);
@@ -125,6 +373,12 @@
         opacity: 0.15;
         top: 0; bottom: 0; left: 0; right: 0;
         background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 #ja:hover:before{
         background: url(../../images/ja-min.jpg);
@@ -134,6 +388,12 @@
         opacity: 0.15;
         top: 0; bottom: 0; left: 0; right: 0;
         background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 #dream:hover:before{
         background: url(../../images/dream-min.jpg);
@@ -143,6 +403,12 @@
         opacity: 0.15;
         top: 0; bottom: 0; left: 0; right: 0;
         background-size: cover;
+        background-repeat: no-repeat;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 
 
